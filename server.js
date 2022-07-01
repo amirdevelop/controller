@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 const server = http.createServer(app);
 const wss = new socket.Server({server});
 const chatId = '2126570077'
-const token = '5315940052:AAEcwcweFnYuy1Z0dGJuu0Hiq8tAWMZjfo4'
-const serverAddr = 'https://equal-enshrined-sauroposeidon.glitch.me/'
+const token = '5503805282:AAEi2yYiCiGg5vZIDH_CvqJJu-k1LTSio68'
+const serverAddr = ''
 const bot = new TelegramBot(token, {polling: true});
 
 // request -
