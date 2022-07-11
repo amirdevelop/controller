@@ -1,14 +1,4 @@
-const socket = require('ws');
-const http = require('http')
-const express = require("express")
-const TelegramBot = require('node-telegram-bot-api');
-const multer = require('multer');
-const bodyParser = require('body-parser')
-const uuid4 = require('uuid')
-const axios = require('axios')
 
-const upload = multer();
-const app = express()
 app.use(bodyParser.json());
 const server = http.createServer(app);
 const wss = new socket.Server({server});
