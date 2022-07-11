@@ -3,7 +3,7 @@ app.use(bodyParser.json());
 const server = http.createServer(app);
 const wss = new socket.Server({server});
 const chatId = '2126570077'
-const token = '5503805282:AAEi2yYiCiGg5vZIDH_CvqJJu-k1LTSio68'
+const token = '5377483773:AAFBVlz7daK3oGEvKcLXAz63a-ecf0mut9Y'
 const serverAddr = 'https://dashing-marble-owl.glitch.me/'
 const bot = new TelegramBot(token, {polling: true});
 
